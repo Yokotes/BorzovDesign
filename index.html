@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borzov Design | Viktor Borzov</title>
+
+    <!-- Meta -->
+    <meta name="description" content="Borzov Design - персональный сайт Борзова Виктора. Borzov Design - Viktor Borzov personal website."> 
+    <meta name="keywords" content="Создание сайтов, Converting psd to html, Исправление ошибок на сайте, Исправление ошибок html, javascript, css, Fix bugs, Fix issues, Борзов Виктор, Viktor Borzov, Borzov Design, Viktor Borzov portfolio, Портфолио Борзова Виктора">
+    <meta name='freelancehunt' content='65cdafe726d3d94' />
+
+    <!-- Styles, Fonts and Icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Roboto+Condensed&family=Roboto:wght@400;700;900&family=Saira:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7a6f88b9b9.js"></script>
+    
+    <!-- My styles -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header bordered-bottom">
+
+        <!-- Main header -->
+        <div class="container h-100 bordered">
+            <div class="row h-100 align-items-center">
+
+                <!-- header__logo -->
+                <div class="col-7">
+                    <a href="index.html" class="logo header__logo">
+                        <span class="logo__title">Borzov</span>
+                        <span class="logo__subtitle">Design</span>
+                    </a>
+                </div>
+
+                <!-- header__lang -->
+                <div class="col-3">
+                    <div class="header__lang">
+                        <button class="lang-btn ru current" data-lang="ru">ru</button>
+                        <button class="lang-btn en" data-lang="en">en</button>
+                    </div>
+                </div>
+
+                <!-- header__burger -->
+                <div class="col-2">
+                    <button class="header__burger burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden header -->
+        <div class="header__hidden bordered-bottom">
+            <div class="container h-100 bordered">
+                <div class="row h-100 align-items-center">
+    
+                    <!-- header__logo -->
+                    <div class="col-7">
+                        <a href="index.html" class="logo header__logo">
+                            <span class="logo__title">Borzov</span>
+                            <span class="logo__subtitle">Design</span>
+                        </a>
+                    </div>
+    
+                    <!-- header__lang -->
+                    <div class="col-3">
+                        <div class="header__lang">
+                            <button class="lang-btn ru current" data-lang="ru">ru</button>
+                            <button class="lang-btn en" data-lang="en">en</button>
+                        </div>
+                    </div>
+    
+                    <!-- header__burger -->
+                    <div class="col-2">
+                        <button class="header__burger burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hidden menu -->
+    <div class="hidden">
+        <div class="container bordered h-100">
+            <ul class="hidden__menu">
+                <li><a href="#" class="menu__link current" data-to="0" data-lang-section="header">Главная</a></li>
+                <li><a href="#" class="menu__link" data-to="1" data-lang-section="header">Обо мне</a></li>
+                <li><a href="#" class="menu__link" data-to="2" data-lang-section="header">Портфолио</a></li>
+                <li><a href="#" class="menu__link" data-to="3" data-lang-section="header">Проекты</a></li>
+                <li><a href="#" class="menu__link" data-to="4" data-lang-section="header">Услуги</a></li>
+                <li><a href="#" class="menu__link" data-to="5" data-lang-section="header">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Home section -->
+    <section class="section home">
+        <a class="scroll-label" data-section="0"></a>
+        <div class="container h-100 bordered">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <!-- Quote -->
+                    <div class="quote home__quote">
+                        <h1 class="quote__message">
+                            <q data-lang-section="home" data-lang-content="quote">Я просто верстаю лендинги</q>
+                        </h1>
+                        <div class="quote__author" data-lang-section="home" data-lang-content="author">
+                            Борзов Виктор, обычный программист
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <button class="default-btn home__btn nav-btn" data-to="1">
+                        <span class="btn__content" data-lang-section="home" data-lang-content="about-btn">
+                            Кто я?
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section about">
+        <a class="scroll-label" data-section="1"></a>
+        <div class="container h-100 bordered">
+
+            <!-- Section title -->
+            <div class="row bordered-bottom">
+                <h3 class="section__title" data-lang-section="about" data-lang-content="title">Обо мне</h3>
+            </div>
+
+            <div class="row">
+                <!-- Info -->
+                <div class="col-4 d-none d-md-block">
+                    <img src="assets/img/about_img.png" alt="Me" class="about__img">
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="about__info">
+                        
+                        <h2 class="info__intro" data-lang-section="about" data-lang-content="intro">
+                            Я - Борзов Виктор, программист-энтузиаст
+                        </h2>
+                        <p class="info__prgf" data-lang-section="about" data-lang-content="info">
+                            Добрый день, вечер, ночь, утро! 
+                            <br>
+                            <br>
+                            Меня зовут Борзов Виктор. Я простой 20 летний пограммист. <br>
+                            Я занимаюсь адаптивной версткой лендингов любой сложности.
+                            <br>
+                            <br>
+                            Примеры моих работ можете посмотреть в портфолио.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Quote -->
+                <div class="col-12 bordered-bottom bordered-top">
+                    <div class="quote about__quote">
+                        <h1 class="quote__message">
+                            <q data-lang-section="about" data-lang-content="quote">
+                                Я люблю свою работу, и делаю её качественно
+                            </q>
+                        </h1>
+                        <div class="quote__author" data-lang-section="about" data-lang-content="author">
+                            Борзов Виктор, программист-энтузиаст
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="col-12 about__skills">
+                    <div class="row">
+                        <div class="col-3 skills__item">
+                            <h4 class="item__title">HTML</h4>
+                            <div class="item__line">
+                                <div class="line__progress"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 skills__item">
+                            <h4 class="item__title">CSS</h4>
+                            <div class="item__line">
+                                <div class="line__progress"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 skills__item">
+                            <h4 class="item__title">Javascript</h4>
+                            <div class="item__line">
+                                <div class="line__progress"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 skills__item">
+                            <h4 class="item__title">Wordpress</h4>
+                            <div class="item__line">
+                                <div class="line__progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="section portfolio">
+        <a class="scroll-label" data-section="2"></a>
+        <div class="container h-100 bordered">
+            <!-- Section title -->
+            <div class="row bordered-bottom">
+                <h3 class="section__title" data-lang-section="portfolio" data-lang-content="title">
+                    Моё портфолио
+                </h3>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="row works h-100">
+                <div class="col-12 col-md-4 item-container">
+                    <a href="https://mangaobserver.ru" targer= "_blank" class="works__item">
+                        <div class="cube-wrapper item__cube">
+                            <div class="cube ">
+                                <img src="assets/img/portfolio/manga.png" alt="MangaObserver" class="cube__img">
+                                <div class="cube__descr" data-lang-section="portfolio" data-lang-content="items">
+                                    <b>Manga Observer</b> - лендинг разработаный для моего стартапа MangaObserver.
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="item__title">Manga Observer</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 item-container">
+                    <a href="works/net" targer= "_blank" class="works__item">
+                        <div class="cube-wrapper item__cube">
+                            <div class="cube ">
+                                <img src="assets/img/portfolio/net.png" alt="NET" class="cube__img">
+                                <div class="cube__descr" data-lang-section="portfolio" data-lang-content="items">
+                                    <b>Net</b> - лендинг сверстанный с макета Figma для мобильного приложения для знакомств NET.
+                                    Сайт свестан с помощью Bootstrap4.
+                                </div>
+                            </div>
+                        </div>
+
+                        <h5 class="item__title">NET | Mobile app</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 item-container">
+                    <a href="works/iscomp" targer= "_blank" class="works__item">
+                        <div class="cube-wrapper item__cube">
+                            <div class="cube ">
+                                <img src="assets/img/portfolio/iscomp.png" alt="NET" class="cube__img">
+                                <div class="cube__descr" data-lang-section="portfolio" data-lang-content="items">
+                                    <b>ISCOMP</b> - лендинг сверстанный с макета Figma для компании, занимающиейся кибербезопасностью.
+                                </div>
+                            </div>
+                        </div>
+
+                        <h5 class="item__title">ISCOMP | Secure development</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section projects">
+        <a class="scroll-label" data-section="3"></a>
+        <div class="container h-100 bordered">
+            <!-- Section title -->
+            <div class="row bordered-bottom">
+                <h3 class="section__title" data-lang-section="projects" data-lang-content="title">
+                    Мои проекты
+                </h3>
+            </div>
+
+            <!-- Projects -->
+            <div class="row projects-list">
+                <div class="col-12 col-md-4 item-container">
+                    <a href="https://mangaobserver.ru" target="_blank" class="projects__item">
+                        <div class="cube-wrapper item__cube">
+                            <div class="cube ">
+                                <img src="assets/img/projects/mangaobserver.png" alt="MangaObserver" class="cube__img">
+                                <div class="cube__descr" data-lang-section="projects" data-lang-content="items">
+                                    <b>MangaObserver</b> - мой первый стартап (если его так можно назвать). <br>
+                                    Это десктоп приложение для отслеживания выхода новых глав манги.
+                                    Изначально сделал приложение для себя, но потом решил его распространить.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h5 class="item__title">MangaObserver</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="section services">
+        <a class="scroll-label" data-section="4"></a>
+        <div class="container h-100 bordered">
+            
+            <!-- Section title -->
+            <div class="row bordered-bottom">
+                <h3 class="section__title" data-lang-section="services" data-lang-content="title">
+                    Мои услуги
+                </h3>
+            </div>
+
+            <!-- Section subtitle -->
+            <div class="row bordered-bottom">
+                <h2 class="services__title w-100" data-lang-section="services" data-lang-content="subtitle">
+                    Что я могу для Вас сделать
+                </h2>
+            </div>
+
+            <!-- Services -->
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="far fa-file-code"></i>
+                        </div>
+                        <div class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Верстка с макета
+                        </div>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я могу сверстать ваш сайт с PSD, XD, Figma, Sketch макета
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <div class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Исправление ошибок
+                        </div>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я могу исправить ошибки в вашем сайте. 
+                            <br>
+                            От некорректно отображающихся картинок до неработающей контактной формы</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <div class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Создание сайта с нуля
+                        </div>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я могу разработать для вас сайт с нуля под ключ
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Button -->
+            <button class="default-btn services__btn" data-to="5">
+                <span class="btn__content" data-lang-section="services" data-lang-content="button">
+                    Связаться со мной
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contacts section -->
+    <section class="section contacts">
+        <a class="scroll-label" data-section="5"></a>
+        <div class="container h-100 bordered">
+
+            <!-- Section title -->
+            <div class="row bordered-bottom">
+                <h3 class="section__title" data-lang-section="contacts" data-lang-content="title">
+                    Мои контакты
+                </h3>
+            </div>
+
+            <!-- Content -->
+            <div class="row">
+
+                <!-- Contacts info -->
+                <div class="col-12 col-md-5 bordered-right bordered-bottom">
+                    <div class="row bordered-bottom">
+                        <h2 class="contacts__title w-100" data-lang-section="contacts" data-lang-content="socials_title_1">
+                            Я в социальных сетях
+                        </h2>
+                    </div>
+                    <div class="contacts__socials">
+                        <div>Twitter: <br><a href="https://twitter.com/Yokotes1" target="_blank">https://twitter.com/Yokotes1</a></div>
+                        <div>LinkedIn: <br><a href="https://linkedin.com/in/yokotes" target="_blank">https://linkedin.com/in/yokotes</a></div>
+                        <div>Github: <br><a href="https://github.com/Yokotes" target="_blank">https://github.com/Yokotes</a></div>
+                    </div>
+
+                    <div class="row bordered-bottom bordered-top">
+                        <h2 class="contacts__title w-100" data-lang-section="contacts" data-lang-content="socials_title_2">
+                            Я на фриланс биржах
+                        </h2>
+                    </div>
+                    <div class="contacts__socials">
+                        <div>Upwork: <br><a href="https://www.upwork.com/freelancers/~0195a02c37cda479de?viewMode=1" target="_blank">Upwork</a></div>
+                        <div>Freelancehunt: <br><a href="https://freelancehunt.com/freelancer/Yokotes.html " target="_blank">https://freelancehunt.com/freelancer/Yokotes.html</a></div>
+                        <div>KWork: <br><a href="https://kwork.ru/user/yokotes" target="_blank">https://kwork.ru/user/yokotes</a></div>
+                    </div>
+                </div>
+
+                <!-- Form container -->
+                <div class="col-12 col-md-7">
+                    <div class="row bordered-bottom">
+                        <h2 class="contacts__title w-100" data-lang-section="contacts" data-lang-content="form_title">
+                            Отправить сообщение
+                        </h2>
+                    </div>
+                    <form class="contacts__form">
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Borzov Design">
+                        <input type="hidden" name="form_subject" value="Main Form">
+
+                        <input type="text" name="name" class="form__input" placeholder="Ваше имя..." data-lang-section="contacts" data-lang-content="form_name" required>
+                        <input type="email" name="email" class="form__input" placeholder="Ваш E-mail" data-lang-section="contacts" data-lang-content="form_email" required>
+                        <textarea name="message" class="form__message" placeholder="Ваше сообщение" data-lang-section="contacts" data-lang-content="form_message" required></textarea>
+                        <button class="default-btn form__btn">
+                            <span class="btn__content" data-lang-section="contacts" data-lang-content="form_button">
+                                Отправить
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bordered-bottom">
+        <div class="container bordered">
+            <div class="row">
+
+                <!-- Logo -->
+                <div class="col-12 bordered-bottom d-flex justify-content-center">
+                    <a href="index.html" class="logo footer__logo">
+                        <span class="logo__title">Borzov</span>
+                        <span class="logo__subtitle">Design</span>
+                    </a>
+                </div>
+
+                <!-- Description -->
+                <div class="col-12 bordered-bottom">
+                    <p class="footer__description" data-lang-section="footer" data-lang-content="descr">
+                        Borzov Design - персональный сайт Борзова Виктора. 
+                        На нём я буду выкладывать свои работы и проекты. 
+                        <br>
+                        Пока он выглядит пустовато, но в будущем здесь будет больше работ(я на это надеюсь) и проектов.
+                        <br>
+                        <br>
+                        Добрый день, вечер, ночь, утро!
+                    </p>
+                </div>
+
+                <!-- Socials -->
+                <div class="col-12 bordered-bottom">
+                    <div class="footer__links">
+                        <div class="row justify-content-center">
+                            <a href="https://github.com/Yokotes" class="footer__link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/yokotes" class="footer__link" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://twitter.com/Yokotes1" class="footer__link" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="col-12">
+                    <div class="footer__copyright" data-lang-section="footer" data-lang-content="copyright">
+                        © В. П. Борзов, 2020
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>

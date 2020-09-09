@@ -1,0 +1,19 @@
+/*
+=======================================
+    Contacts section
+=======================================
+*/ 
+
+.contacts {
+    padding-bottom: 100px;
+    /*
+    -----------------------------------
+        Contacts / Text
+    -----------------------------------
+    */ 
+    &__text {
+        color: $text_color;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+}

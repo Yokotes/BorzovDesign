@@ -1,0 +1,237 @@
+/*
+=======================================
+    1. Core styles
+=======================================
+*/
+
+body {
+    background-color: $bg_color;
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+}
+
+/*
+---------------------------------------
+    1.1 Bordered class
+---------------------------------------
+*/
+.bordered {
+    border-left: .5px solid transparentize($color: $main_color, $amount: .75);
+    border-right: .5px solid transparentize($color: $main_color, $amount: .75);
+
+    &-bottom {
+        border-bottom: .5px solid transparentize($color: $main_color, $amount: .75);
+    }
+
+    &-top {
+        border-top: .5px solid transparentize($color: $main_color, $amount: .75);
+    }
+
+    &-right {
+        border-right: .5px solid transparentize($color: $main_color, $amount: .75);
+    }
+}
+
+/*
+---------------------------------------
+    1.2 Section
+---------------------------------------
+*/
+.section {
+    min-height: 100vh;
+    height: 100vh;
+    border-bottom: .5px solid transparentize($color: $main_color, $amount: .75);
+
+    &__title {
+        color: $second_color;
+        font-family: $sections_title_font;
+        font-size: 24px;
+        padding: 30px 20px;
+        margin-bottom: 0;
+    }
+}
+
+/*
+---------------------------------------
+    1.3 Quote
+---------------------------------------
+*/
+.quote {
+
+    &__message {
+        color: $main_color;
+        font-family: $default_font;
+        font-weight: bold;
+        font-size: 50px;
+    
+        q {
+            letter-spacing: 0.045em;
+        }
+    }
+
+    &__author {
+        color: $second_color;
+        font-family: $sections_title_font;
+        display: flex;
+        align-items: center;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background-color: $second_color;
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+    }
+}
+
+/*
+---------------------------------------
+    1.4 Logo
+---------------------------------------
+*/
+.logo {
+    text-transform: uppercase;
+    color: $main_color;
+    line-height: 1;
+
+    &__title {
+        font-family: $logo_title_font;
+        font-size: 32px;
+        letter-spacing: 0.03em;
+    }
+
+    &__subtitle {
+        font-family: $default_font;
+        font-size: 11px;
+        letter-spacing: 1.665em;
+        margin-left: 1px;
+    }
+
+    span {
+        display: block;
+    }
+    
+    &:hover {
+        text-decoration: none;
+        color: $main_color;
+    }
+}
+
+/*
+---------------------------------------
+    1.5 Default button
+---------------------------------------
+*/
+.default-btn {
+    border: 3px solid $main_color;
+    background-color: transparent;
+    padding: 10px 40px;
+    overflow: hidden;
+
+    color: $main_color;
+    font-family: $buttons_font;
+    font-size: 18px;
+
+    position: relative;
+    transition: color .8s;
+
+    span:not(.btn__content) {
+        position: absolute;
+        display: inline-block;
+        background-color: $main_color;
+        top: 100%;
+        z-index: -1;
+
+        transition: top .6s;
+    }
+
+    &:hover {
+        color: $bg_color;
+
+        span:not(.btn__content) {
+            top: 0
+        }
+    }
+}
+
+/*
+---------------------------------------
+    1.6 Works Cube
+---------------------------------------
+*/
+.cube {
+    transform-style: preserve-3d;
+    position: relative;
+    transition: transform .8s;
+
+    &-wrapper {
+        perspective: 1000px;
+    }
+
+    &__img {
+        width: 100%;
+        
+    }
+
+    &__descr {
+        position: absolute;
+        top: 0;
+        backface-visibility: hidden;
+
+        width: 100%;
+        height: 100%;
+        background-color: darken($color: $second_color, $amount: 10);
+        color: $main_color;
+        font-family: $default_font;
+        padding: 15px 20px;
+        overflow-y: auto;
+    }
+
+    &:hover {
+        transform: rotateY(-90deg);
+    }
+}
+
+/*
+---------------------------------------
+    1.7 Form
+---------------------------------------
+*/
+.form {
+    &__input, &__message {
+        display: block;
+        color: $main_color;
+        width: 90%;
+        background-color: darken($color: $bg_color, $amount: 5);
+        font-family: $default_font;
+        border: none;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__input {
+        padding: 25px;
+    }
+
+    &__message {
+        height: 150px;
+        padding: 25px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

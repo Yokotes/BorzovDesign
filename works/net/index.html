@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net | Mobile app</title>
+
+    <!-- Styles and Fonts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7a6f88b9b9.js"></script>
+
+     <!-- My styles and icon -->
+     <link rel="stylesheet" href="assets/css/main.min.css">
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                
+                <!-- Header logo -->
+                <div class="col-4 logo-container">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" alt="Header logo" class="logo main-header__logo">
+                    </a>
+                </div>
+
+                <!-- Header menu -->
+                <div class="col-8 menu-container">
+                    <ul class="menu main-header__menu">
+                        <li class="d-none d-md-block"><a href="#" data-to="0">Home</a></li>
+                        <li class="d-none d-md-block"><a href="#" data-to="1">About</a></li>
+                        <li class="d-none d-md-block"><a href="#" data-to="2">Features</a></li>
+                        <li class="d-none d-md-block"><a href="#" data-to="3">Updates</a></li>
+                        <li class="d-none d-md-block last"><a href="#" data-to="4">Download</a></li>
+                        <li class="d-block d-md-none burger-container">
+                            <button class="burger menu__burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hidden menu -->
+                <div class="hidden-menu">
+                    <div class="container">
+                        <ul class="menu hidden-menu__menu">
+                            <li class="d-block"><a href="#" data-to="0">Home</a></li>
+                            <li class="d-block"><a href="#" data-to="1">About</a></li>
+                            <li class="d-block"><a href="#" data-to="2">Features</a></li>
+                            <li class="d-block"><a href="#" data-to="3">Updates</a></li>
+                            <li class="d-block"><a href="#" data-to="4">Download</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hidden header-->
+    <header class="hidden-header">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                
+                <!-- Header logo -->
+                <div class="col-4 logo-container">
+                    <a href="index.html">
+                        <img src="assets/img/logo_alt.png" alt="Header logo" class="logo hidden-header__logo">
+                    </a>
+                </div>
+
+                <!-- Header menu -->
+                <div class="col-8 menu-container">
+                    <ul class="menu hidden-header__menu">
+                        <li class="d-none d-md-block"><a href="#" data-to="0">Home</a></li>
+                        <li class="d-none d-md-block"><a href="#" data-to="1">About</a></li>
+                        <li class="d-none d-md-block"><a href="#" data-to="2">Features</a></li>
+                        <li class="d-none d-md-block"><a href="#" data-to="3">Updates</a></li>
+                        <li class="d-none d-md-block last"><a href="#" data-to="4">Download</a></li>
+                        <li class="d-block d-md-none burger-container">
+                            <button class="burger menu__burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Home section -->
+    <section class="home">
+        <div class="container">
+            <div class="row">
+                <!-- Label -->
+                <a class="label" data-name="0"></a>
+
+                <!-- Home content -->
+                <div class="col-12 order-2 order-md-1 col-md-6 content-container">
+                    
+                    <div class="home__content">
+                        <!-- Content title -->
+                        <h1 class="content__title h1-title">Build your NETWORK</h1>
+
+                        <!-- Content descr -->
+                        <p class="content__descr">
+                            Build your own network. Meet new people.Share your hobbies.
+                        </p>
+
+                        <!-- Content buttons -->
+                        <div class="btns-container">
+                            
+                            <!-- Download button -->
+                            <button class="default-btn content__btn" data-to="4">
+                                Download
+                            </button>
+
+                            <!-- Learn more button -->
+                            <button class="link-btn content__btn" data-to="1">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Home image -->
+                <div class="col-12 order-1 order-md-2 col-md-6 img-container">
+                    <img src="assets/img/home_img.png" alt="App preview" class="home__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <!-- Label -->
+                <a class="label" data-name="1"></a>
+
+                <!-- About content -->
+                <div class="col-12 col-md-8 order-2 order-md-1">
+
+                    <!-- About title -->
+                    <h1 class="about__title h1-title h1-title_purple">
+                        MOBILE APP for meetups
+                    </h1>
+
+                    <!-- About descr -->
+                    <p class="about__descr">
+                        NET - mobile app for meetups developed by small team from UK.
+                        <br>
+                        With this app you can meet new people, chatting with them, find your love.
+                        <br>
+                        <br>
+                        Build your own network. Meet new people. Share your hobbies.
+                    </p>
+
+                    <!-- About button -->
+                    <button class="default-btn default-btn_purple about__btn" data-to="4">
+                        Download
+                    </button>
+                </div>
+
+                <!-- About image -->
+                <div class="col-12 col-md-4 order-1 order-md-2">
+                    <img src="assets/img/about_img.png" alt="App Logo" class="about__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <!-- Label -->
+                <a class="label" data-name="2"></a>
+
+                <!-- Features title -->
+                <h4 class="features__title col-12">
+                    Features
+                </h4>
+
+                <!-- Features items -->
+                <div class="features__items col-12">
+                    <div class="row">
+                        
+                        <!-- Item -->
+                        <div class="col-12 col-md-4">
+                            <div class="features__item">
+
+                                <!-- Item image -->
+                                <div class="img-container">
+                                    <i class="fas fa-guitar"></i>
+                                </div>
+
+                                <!-- Item title -->
+                                <h3 class="item__title">
+                                    Share hobbies
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="col-12 col-md-4">
+                            <div class="features__item">
+                                <!-- Item image -->
+                                <div class="img-container">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+
+                                <!-- Item title -->
+                                <h3 class="item__title">
+                                    Expand network
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="col-12 col-md-4">
+                            <div class="features__item">
+                                <!-- Item image -->
+                                <div class="img-container">
+                                    <i class="fas fa-users"></i>
+                                </div>
+
+                                <!-- Item title -->
+                                <h3 class="item__title">
+                                    Meet people
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updates section -->
+    <section class="updates">
+        <div class="container">
+            <div class="row">
+                <!-- Label -->
+                <a class="label" data-name="3"></a>
+
+                <!-- Title -->
+                <h2 class="col-12 updates__title">
+                    Subscribe for updates
+                </h2>
+
+                <!-- Subscribe form -->
+                <div class="col-12 form-container">
+                    <form class="updates__form form">
+                        <div class="row">
+
+                            <!-- Form inputs -->
+                            <div class="col-12 col-md-6">
+                                <input type="text" class="form__input" placeholder="Name" required>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <input type="text" class="form__input" placeholder="E-mail" required>
+                            </div>
+
+                            <!-- Form text -->
+                            <div class="col-12 col-md-6">
+                                <div class="form__text">
+                                    *We don’t provide spam, so feel free to subscribe
+                                </div>
+                            </div>
+
+                            <!-- Form button -->
+                            <div class="col-12 col-md-6">
+                                <button class="default-btn form__btn">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download section -->
+    <section class="download">
+        <div class="container">
+            <div class="row">
+                <!-- Label -->
+                <a class="label" data-name="4"></a>
+
+                <!-- Download content -->
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <div class="download__content">
+
+                        <!-- Content title -->
+                        <h1 class="h1-title content__title">
+                            Download APP
+                        </h1>
+
+                        <!-- Content descr -->
+                        <p class="content__descr">
+                            Download NET app to your phone
+                        </p>
+
+                        <!-- Content buttons -->
+                        <div class="buttons-container">
+
+                            <!-- Android -->
+                            <button class="default-btn content__btn">
+                                <i class="fab fa-android"></i> Android
+                            </button>
+                            
+                            <!-- Apple -->
+                            <button class="default-btn content__btn">
+                                <i class="fab fa-apple"></i> Apple
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Download image -->
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <img src="assets/img/download_img.png" alt="App Loadscreen" class="download__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo -->
+                <div class="logo-container col-12">
+                    <a href="#">
+                        <img src="assets/img/logo_alt.png" alt="Footer logo" class="footer__logo">
+                    </a>
+                </div>
+
+                <!-- Descr -->
+                <div class="descr-container col-12">
+                    <p class="footer__descr">
+                        NET - mobile app for meetups developed by small team from UK. 
+                        <br>
+                        With this app you can meet new peoples, chatting with them, find your love.
+                        <br>
+                        <br>
+                        Build your own network. Meet new peoples. Share your hobbies.
+                    </p>
+                </div>
+
+                <!-- Menu -->
+                <div class="menu-container col-12">
+                    <ul class="menu footer__menu">
+                        <li class="d-none d-md-block"><a href="#">Home</a></li>
+                        <li class="d-none d-md-block"><a href="#">About</a></li>
+                        <li class="d-none d-md-block"><a href="#">Features</a></li>
+                        <li class="d-none d-md-block"><a href="#">Updates</a></li>
+                        <li class="d-none d-md-block last"><a href="#">Download</a></li>
+                        <li class="d-block d-md-none burger-container">
+                            <button class="burger menu__burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Socials -->
+                <div class="socials-container col-12">
+                    <div class="footer__socials">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-google-play"></i></a>
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*
+=======================================
+|===========| Navigation |============|
+=======================================
+|   1. Core styles                    |
+|       1.1 Bordered class            |
+|       1.2 Section                   |
+|       1.3 Quote                     |
+|       1.4 Logo                      |
+|       1.5 Default button            |
+|       1.6 Works Cube                |
+|-------------------------------------|
+|   2. Header                         |
+|       2.1 Language button           |
+|       2.2 Hidden header             |
+|       2.3 Burger button             |
+|       2.4 Hidden menu               |
+|-------------------------------------|
+|   3. Home section                   |
+|       3.1 Media                     |
+|-------------------------------------|
+|   4. About section                  |
+|       4.1 Info                      |
+|       4.2 Skills                    |
+|-------------------------------------|
+|   5. Portfolio section              |
+|       5.1 Works                     |
+|-------------------------------------|
+|   6. Projects section               |
+|       6.1 Items                     |
+|-------------------------------------|
+|   7. Services section               |
+|       7.1 Title                     |
+|       7.2 Items                     |
+|-------------------------------------|
+|   8. Contacts section               |
+|       8.1 Title                     |
+|       8.2 Socials                   |
+|-------------------------------------|
+|   9. Footer                         |
+|       9.1 Logo                      |
+|       9.2 Description               |
+|       9.3 Social links              |
+|       9.4 Copyright                 |
+=======================================
+*/ 
+
+// Core imports
+@import 'variables';
+@import 'normalize';
+@import 'core';
+
+// Header
+@import 'header';
+
+// Home section
+@import 'home';
+
+// About section
+@import 'about';
+
+// Portfolio section
+@import 'portfolio';
+
+// Projects section
+@import 'projects';
+
+// Services section
+@import 'services';
+
+// Contacts section
+@import 'contacts';
+
+// Footer
+@import 'footer';

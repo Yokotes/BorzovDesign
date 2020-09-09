@@ -1,0 +1,44 @@
+/*
+=======================================
+    6. Projects section
+=======================================         
+*/
+
+.projects {
+    min-height: unset;
+    height: unset;
+
+    &-list {
+        margin-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+
+/*
+---------------------------------------
+    6.1 Items
+---------------------------------------         
+*/ 
+.projects__item {
+    text-decoration: none;
+    transition: transform .5s;
+    display: block;
+    
+    &:hover {
+        color: $main_color;
+        text-decoration: none;
+    }
+}
+
+.projects .item {
+    &__cube {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-family: $default_font;
+        font-size: 16px;
+        text-align: center;
+        color: $main_color;
+    }
+}

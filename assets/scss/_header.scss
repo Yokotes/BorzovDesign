@@ -1,0 +1,174 @@
+/*
+=======================================
+    2. Header
+=======================================         
+*/ 
+
+.header {
+    height: 100px;
+}
+
+/*
+---------------------------------------
+    2.1 Language button
+---------------------------------------         
+*/ 
+.lang-btn {
+    background-color: transparent;
+    color: $main_color;
+    border: none;
+    font-family: $default_font;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &.current {
+        font-weight: bold;
+    }
+}
+
+/*
+---------------------------------------
+    2.2 Hidden header
+---------------------------------------         
+*/
+.header__hidden {
+    background-color: darken($color: $bg_color, $amount: 8);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: -100px;
+    z-index: 2;
+    transition: top .5s;
+
+    &.show {
+        top: 0;
+    }
+}
+
+/*
+---------------------------------------
+    2.3 Burger button
+---------------------------------------         
+*/
+.header__burger {
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin-left: auto;
+    height: 20px;
+    width: 25px;
+    position: relative;
+
+    &.active {
+        span {
+            transform: scaleX(0.65);
+
+            &:first-child {
+                transform: none;
+            }
+
+            &:last-child {
+                transform: scaleX(0.25);
+            }
+        }
+
+        &:hover {
+            span {
+                transform: scaleX(0.65);
+
+                &:first-child {
+                    transform: none;
+                }
+
+                &:last-child {
+                    transform: scaleX(0.25);
+                }
+            }
+        }
+    }
+
+    span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: $main_color;
+        transition: transform .5s;
+        position: absolute;
+        transform-origin: center;
+
+        &:first-child {
+            top: 2px;
+        }
+
+        &:last-child {
+            bottom: 0;
+        }
+    }
+
+    &:hover {
+        span {
+            transform: scaleX(0.65);
+
+            &:first-child {
+                transform: scaleX(0.25);
+            }
+
+            &:last-child {
+                transform: none;
+            }
+        }
+    }
+}
+
+/*
+---------------------------------------
+    2.4 Hidden menu
+---------------------------------------         
+*/
+.hidden {
+    background-color: darken($color: $bg_color, $amount: 8);
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    position: fixed;
+    top: 100%;       
+    z-index: 1;
+    transition: top .5s;
+
+    &__menu {
+        padding-top: 20px;
+
+        li {
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        a {
+            color: $second_color;
+            font-family: $sections_title_font;
+            font-size: 2.3em;
+            transition: color .5s;
+
+            &:hover {
+                color: $main_color;
+                text-decoration: none;
+            }
+
+            &.current {
+                color: $main_color;
+            }
+        }
+    }
+
+    &.show {
+        top: 0;
+    }
+}

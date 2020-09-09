@@ -1,0 +1,93 @@
+/*
+=======================================
+    4. About section
+=======================================         
+*/
+
+.about {
+    min-height: unset;
+    height: unset;
+
+    // Image
+    &__img {
+        width: 90%;
+    }
+
+    // Quote
+    &__quote {
+        padding: 20px 0;
+
+        .quote__message {
+            font-size: 42px;
+            text-align: center;
+        }
+    }
+}
+
+/*
+---------------------------------------
+    4.1 Info
+---------------------------------------         
+*/ 
+
+.info {
+    &__intro {
+        color: $main_color;
+        font-family: $default_font;
+        font-weight: bold;
+        font-size: 32px;
+
+        margin-top: 40px;
+    }
+
+    &__prgf {
+        color: lighten($color: $second_color, $amount: 9);
+        font-family: $default_font;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 65px;
+    }
+}
+
+/*
+---------------------------------------
+    4.2 Skills
+---------------------------------------         
+*/ 
+
+.about__skills {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.about .item {
+    &__title {
+        color: $main_color;
+        font-family: $sections_title_font;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    &__line {
+        background-color: darken($color: $bg_color, $amount: 5);
+        width: 5px;
+        height: 280px;
+        margin: 20px 0;
+
+        .line__progress {
+            width: 100%;
+            min-height: 280px;
+            background-color: $main_color;
+            transform-origin: center bottom;
+
+            transition: transform .5s;
+        }
+    }
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

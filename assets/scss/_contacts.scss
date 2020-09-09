@@ -1,0 +1,53 @@
+/*
+=======================================
+    8. Contacts section
+=======================================         
+*/
+
+.contacts {
+    min-height: unset;
+    height: unset;
+
+    &__form {
+        padding-bottom: 40px;
+    }
+}
+
+/*
+---------------------------------------
+    8.1 Title
+---------------------------------------         
+*/
+
+.contacts__title {
+    color: $main_color;
+    font-family: $sections_title_font;
+    font-weight: normal;
+    font-size: 30px;
+
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+/*
+---------------------------------------
+    8.2 Socials
+---------------------------------------         
+*/
+.contacts__socials {
+    color: $second_color;
+    font-family: $sections_title_font;
+    font-size: 20px;
+    padding: 50px 0;
+    overflow: hidden;
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: $main_color;
+        font-family: $buttons_font;
+    }
+}

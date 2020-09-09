@@ -1,0 +1,19 @@
+.updates {
+    background-image: url('../img/svg/bg_purple.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    padding-top: 300px;
+    padding-bottom: 100px;
+
+    border-bottom: 1px solid transparentize($color: $first_color, $amount: .5);
+
+    // Title 
+    &__title {
+        color: $first_color;
+        text-transform: uppercase;
+        font-family: $default_font;
+        font-weight: bold;
+        margin-bottom: 80px;
+    }
+}

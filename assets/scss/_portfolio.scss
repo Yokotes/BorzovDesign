@@ -1,0 +1,48 @@
+/*
+=======================================
+    4. Portfolio section
+=======================================         
+*/
+
+.portfolio {
+    min-height: unset;
+    height: unset;
+}
+
+/*
+---------------------------------------
+    5.1 Works
+---------------------------------------         
+*/ 
+
+.works {
+    margin-top: 90px;
+    padding-bottom: 90px;
+
+    &__item {
+        text-decoration: none;
+        transition: transform .5s;
+        display: block;
+            
+        &:hover {
+            color: $main_color;
+        }
+    }
+}
+
+.portfolio .item {
+    &-container {
+        margin-bottom: 20px;
+    }
+
+    &__cube {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-family: $default_font;
+        font-size: 16px;
+        text-align: center;
+        color: $main_color;
+    }
+}

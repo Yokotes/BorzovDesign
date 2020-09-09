@@ -1,0 +1,154 @@
+{
+    "ru": {
+        "home": {
+            "quote": "Я просто верстаю лендинги",
+            "author": "Борзов Виктор, обычный программист",
+            "about-btn": "Кто я?"
+        },
+
+        "about": {
+            "title": "Обо мне",
+            "intro": "Я - Борзов Виктор, программист-энтузиаст",
+            "info": "Добрый день, вечер, ночь, утро! <br><br>Меня зовут Борзов Виктор. Я простой 20 летний пограммист. <br>Я занимаюсь адаптивной версткой лендингов любой сложности.<br><br>Примеры моих работ можете посмотреть в портфолио.",
+            "quote": "Я люблю свою работу, и делаю её качественно",
+            "author": "Борзов Виктор, программист-энтузиаст"
+        },
+
+        "portfolio": {
+            "title": "Моё портфолио",
+            "items": [
+                "<b>Manga Observer</b> - лендинг разработаный для моего стартапа MangaObserver.", 
+                "<b>Net</b> - лендинг сверстанный с макета Figma для мобильного приложения для знакомств NET. Сайт свестан с помощью Bootstrap4."
+            ]
+        },
+
+        "projects": {
+            "title": "Мои проекты",
+            "items": [
+                "<b>MangaObserver</b> - мой первый стартап (если его так можно назвать). <br> Это десктоп приложение для отслеживания выхода новых глав манги. Изначально сделал приложение для себя, но потом решил его распространить."
+            ]
+        },
+
+        "services": {
+            "title": "Мои услуги",
+            "subtitle": "Что я могу для Вас сделать",
+            "items": [
+                {
+                    "title": "Верстка с макета",
+                    "descr": "Я могу сверстать ваш сайт с PSD, XD, Figma, Sketch макета"
+                },
+                {
+                    "title": "Исправление ошибок",
+                    "descr": "Я могу исправить ошибки в вашем сайте. <br>От некорректно отображающихся картинок до неработающей контактной формы"
+                },
+                {
+                    "title": "Создание сайта с нуля",
+                    "descr": "Я могу разработать для вас сайт с нуля под ключ."
+                }
+            ],
+            "button": "Связаться со мной"
+        },
+
+        "contacts": {
+            "title": "Мои контакты",
+            "socials_title_1": "Я в социальных сетях",
+            "socials_title_2": "Я на фриланс биржах",
+            "form_title": "Отправить сообщение",
+            "form_name": "Ваше имя",
+            "form_email": "Ваш E-mail",
+            "form_message": "Ваше сообщение",
+            "form_button": "Отправить"
+        },
+
+        "header": [
+            "Главная",
+            "Обо мне",
+            "Портфолио",
+            "Проекты",
+            "Услуги",
+            "Контакты"
+        ],
+
+        "footer": {
+            "descr": "Borzov Design - персональный сайт Борзова Виктора. На нём я буду выкладывать свои работы и проекты. <br> Пока он выглядит пустовато, но в будущем здесь будет больше работ(я на это надеюсь) и проектов.<br><br>Добрый день, вечер, ночь, утро!",
+            "copyright": "© В. П. Борзов, 2020"
+        }
+    },
+
+    "en": {
+        "home": {
+            "quote": "I’m just making landing pages",
+            "author": "Viktor Borzov, a simple programmer",
+            "about-btn": "Who am I?"
+        },
+
+        "about": {
+            "title": "About me",
+            "intro": "I am Viktor Borzov, enthusiast programmer",
+            "info": "Good afternoon, evening, night, morning!<br><br> My name is Viktor Borzov. I’m 20 years old. <br>I can convert PSD, XD, Figma, Sketch to responsive landing page. You could see my works in portfolio section.",
+            "quote": "I love my job and I do it with high quality",
+            "author": "Viktor Borzov, enthusiast programmer"
+        },
+
+        "portfolio": {
+            "title": "Portfolio",
+            "items": [
+                "<b>Manga Observer</b> - landing page developed for my startup MangaObserver.", 
+                "<b>Net</b> - landing page converted from Figma template for mobile app for meetups. Website developed with Bootstrap4.",
+                "<b>ISCOMP</b> - landing page converted from Figma for cybersecure company. Website developed with Bootstrap4."
+            ]
+        },
+
+        "projects": {
+            "title": "My projects",
+            "items": [
+                "<b>MangaObserver</b> - (Only for Russian) this is my first startup (if it can called that). <br> This is desktop application for tracking manga releases. I developed it for myself, but later decided to distribute."
+            ]
+        },
+
+        "services": {
+            "title": "My services",
+            "subtitle": "What can I do for you",
+            "items": [
+                {
+                    "title": "Convert from templates",
+                    "descr": "I can convert your PSD, XD, Figma, Sketch template to responsive HTML"
+                },
+                {
+                    "title": "Fix issues",
+                    "descr": "I can fix errors in your website.<br> From incorrectly displayed image until not working contact form"
+                },
+                {
+                    "title": "Create a website",
+                    "descr": "I can design and create a website"
+                }
+            ],
+            "button": "Contact me"
+        },
+
+        "contacts": {
+            "title": "My contacts",
+            "socials_title_1": "I am in socials",
+            "socials_title_2": "I am in freelance",
+            "form_title": "Send a message",
+            "form_name": "Your name",
+            "form_email": "Your E-mail",
+            "form_message": "Your message",
+            "form_button": "Send"
+        },
+
+        "header": [
+            "Home",
+            "About me",
+            "Portfolio",
+            "Projects",
+            "Services",
+            "Contacts"
+        ],
+
+        "footer": {
+            "descr": "Borzov Design - Viktor Borzov personal website. Here I will store my works and projects. <br> Today it looks a bit empty, but in the future there will be more works and projects(I hope so).<br><br>Good afternoon, evening, night, morning!",
+            "copyright": "© V. P. Borzov, 2020"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+/*
+=======================================
+    7. Services section
+=======================================         
+*/
+
+.services {
+    min-height: unset;
+    height: unset;
+
+    .container {
+        padding-bottom: 40px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 50px auto;
+        margin-bottom: 0;
+    }
+}
+
+/*
+---------------------------------------
+    7.1 Title
+---------------------------------------         
+*/ 
+.services__title {
+    color: $main_color;
+    font-family: $default_font;
+    font-weight: bold;
+    font-size: 36px;
+
+    padding: 20px;
+    text-align: center;
+}
+
+/*
+---------------------------------------
+    7.2 Items
+---------------------------------------         
+*/ 
+
+.services__item {
+    margin-top: 30px;
+}
+
+.services .item {
+    &__img, &__title, &__descr {
+        color: $main_color;
+        text-align: center;
+    }
+
+    &__img {
+        font-size: 4.2em;
+    }
+
+    &__title {
+        font-family: $default_font;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    &__descr {
+        color: $second_color;
+        font-family: $default_font;
+        font-size: 14px;
+    }
+}

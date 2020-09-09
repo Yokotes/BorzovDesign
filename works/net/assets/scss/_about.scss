@@ -1,0 +1,36 @@
+.about {
+    background-image: url('../img/svg/bg_white.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $second_color;
+
+    padding-top: 350px;
+    padding-bottom: 150px;
+
+    border-bottom: 1px solid transparentize($color: $second_color, $amount: .5);
+
+    // Image
+    &__img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    // Title 
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    // Description
+    &__descr {
+        font-family: $default_font;
+        margin-bottom: 65px;
+    }
+
+    // Button
+    &__btn {
+        display: block;
+        margin: 0 auto;
+    }
+}

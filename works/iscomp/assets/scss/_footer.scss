@@ -1,0 +1,53 @@
+/*
+=======================================
+    Footer
+=======================================
+*/
+.footer {
+    padding: 55px 0;
+
+    /*
+    -----------------------------------
+        Footer / Logo
+    -----------------------------------
+    */ 
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    /*
+    -----------------------------------
+        Footer / Text
+    -----------------------------------
+    */ 
+    .text-container {
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        color: $text_color;
+        text-align: center;
+    }
+
+    /*
+    -----------------------------------
+        Footer / Socials
+    -----------------------------------
+    */
+    .socials-container  {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social__link {
+        color: $accent_color;
+        margin-right: 30px;
+        font-size: 2em;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

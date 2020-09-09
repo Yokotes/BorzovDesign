@@ -1,0 +1,57 @@
+.footer {
+    background-image: url('../img/svg/bg_white.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $second_color;
+
+    padding-top: 180px;
+    padding-bottom: 30px;
+
+    // Menu
+    .menu-container {
+        margin-bottom: 35px;
+    }
+
+    &__menu {
+        justify-content: center;
+
+        a {
+            color: $second_color;
+        }
+    }
+
+    // Logo
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+
+    // Description
+    .descr-container {
+        margin-bottom: 45px;
+    }
+
+    &__descr {
+        color: $second_color;
+        font-family: $default_font;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    // Socials
+    &__socials {
+        display: flex;
+        justify-content: center;
+
+        a {
+            color: $second_color;
+            margin-right: 30px;
+            font-size: 1.5rem;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
