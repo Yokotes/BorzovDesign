@@ -1,4 +1,4 @@
-# BorzovDesign
+# Borzov Design
 Here is my personal website files.
 
 This is an example of one of my works.
