@@ -23,14 +23,15 @@
 |       4.1 Info                      |
 |       4.2 Skills                    |
 |-------------------------------------|
-|   5. Portfolio section              |
-|       5.1 Works                     |
+|   5. Services section               |
+|       5.1 Title                     |
+|       5.2 Items                     |
 |-------------------------------------|
-|   6. Projects section               |
-|       6.1 Items                     |
+|   6. Portfolio section              |
+|       6.1 Works                     |
 |-------------------------------------|
-|   7. Services section               |
-|       7.1 Title                     |
+|   7. Orders section                 |
+|       7.1 Tilte                     |
 |       7.2 Items                     |
 |-------------------------------------|
 |   8. Contacts section               |
@@ -90,6 +91,9 @@ button:focus {
     font-size: 24px;
     padding: 30px 20px;
     margin-bottom: 0; }
+
+.bg-fill {
+  background-color: #1c1c1c; }
 
 /*
 ---------------------------------------
@@ -157,12 +161,15 @@ button:focus {
   font-size: 18px;
   position: relative;
   transition: color .8s; }
+  .default-btn .btn__content {
+    position: relative;
+    z-index: 1; }
   .default-btn span:not(.btn__content) {
     position: absolute;
     display: inline-block;
     background-color: #fff;
     top: 100%;
-    z-index: -1;
+    z-index: 0;
     transition: top .6s; }
   .default-btn:hover {
     color: #303030; }
@@ -262,7 +269,7 @@ button:focus {
   height: 100px;
   position: fixed;
   top: -100px;
-  z-index: 2;
+  z-index: 3;
   transition: top .5s; }
   .header__hidden.show {
     top: 0; }
@@ -323,7 +330,7 @@ button:focus {
   padding-top: 100px;
   position: fixed;
   top: 100%;
-  z-index: 1;
+  z-index: 2;
   transition: top .5s; }
   .hidden__menu {
     padding-top: 20px; }
@@ -400,9 +407,9 @@ button:focus {
 .info__prgf {
   color: gray;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 1em;
   line-height: 23px;
-  margin-top: 65px; }
+  margin-top: 50px; }
 
 /*
 ---------------------------------------
@@ -436,76 +443,6 @@ button:focus {
   flex-direction: column;
   align-items: center;
   justify-content: space-between; }
-
-/*
-=======================================
-    4. Portfolio section
-=======================================         
-*/
-.portfolio {
-  min-height: unset;
-  height: unset; }
-
-/*
----------------------------------------
-    5.1 Works
----------------------------------------         
-*/
-.works {
-  margin-top: 90px;
-  padding-bottom: 90px; }
-  .works__item {
-    text-decoration: none;
-    transition: transform .5s;
-    display: block; }
-    .works__item:hover {
-      color: #fff; }
-
-.portfolio .item-container {
-  margin-bottom: 20px; }
-
-.portfolio .item__cube {
-  margin-bottom: 20px; }
-
-.portfolio .item__title {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  color: #fff; }
-
-/*
-=======================================
-    6. Projects section
-=======================================         
-*/
-.projects {
-  min-height: unset;
-  height: unset; }
-  .projects-list {
-    margin-top: 90px;
-    padding-bottom: 90px; }
-
-/*
----------------------------------------
-    6.1 Items
----------------------------------------         
-*/
-.projects__item {
-  text-decoration: none;
-  transition: transform .5s;
-  display: block; }
-  .projects__item:hover {
-    color: #fff;
-    text-decoration: none; }
-
-.projects .item__cube {
-  margin-bottom: 20px; }
-
-.projects .item__title {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  color: #fff; }
 
 /*
 =======================================
@@ -559,6 +496,127 @@ button:focus {
   color: #696969;
   font-family: "Roboto", sans-serif;
   font-size: 14px; }
+
+/*
+=======================================
+    4. Portfolio section
+=======================================         
+*/
+.portfolio {
+  min-height: unset;
+  height: unset; }
+
+/*
+---------------------------------------
+    5.1 Works
+---------------------------------------         
+*/
+.works {
+  margin-top: 90px;
+  padding-bottom: 90px; }
+  .works__item {
+    text-decoration: none;
+    transition: transform .5s;
+    display: block; }
+    .works__item:hover {
+      color: #fff; }
+
+.portfolio .item-container {
+  margin-bottom: 20px; }
+
+.portfolio .item__cube {
+  margin-bottom: 20px; }
+
+.portfolio .item__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fff; }
+
+/*
+=======================================
+    2. Orders section
+=======================================         
+*/
+.orders {
+  height: unset;
+  min-height: unset; }
+  .orders .row {
+    padding-bottom: 50px; }
+
+/*
+---------------------------------------
+    2.1 Title
+---------------------------------------         
+*/
+.orders__title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.2em;
+  margin-bottom: 30px; }
+
+/*
+---------------------------------------
+    2.2 Items
+---------------------------------------         
+*/
+.orders__item {
+  margin: 15px auto;
+  max-width: 330px;
+  padding-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 30px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px; }
+  .orders__item.main {
+    border-color: white; }
+    .orders__item.main .item__title {
+      color: white; }
+    .orders__item.main .item__list {
+      color: #fff; }
+    .orders__item.main .item__price {
+      color: #fff; }
+
+.orders__item:not(.main) .item__btn {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.35); }
+  .orders__item:not(.main) .item__btn span:not(.btn__content) {
+    background-color: rgba(255, 255, 255, 0.35); }
+
+.orders .item__title {
+  color: rgba(255, 255, 255, 0.35);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif; }
+
+.orders .item__list {
+  color: rgba(255, 255, 255, 0.35);
+  padding: 10px 20px; }
+  .orders .item__list ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 0; }
+    .orders .item__list ul li {
+      margin-bottom: 5px; }
+      .orders .item__list ul li:last-child {
+        margin-bottom: 0; }
+
+.orders .item__price {
+  color: rgba(255, 255, 255, 0.35);
+  margin-bottom: 20px;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 2.5em;
+  text-align: center; }
+  .orders .item__price span {
+    font-family: "Roboto", sans-serif; }
+
+.orders .item__btn {
+  display: block;
+  margin: 0 auto; }
 
 /*
 =======================================

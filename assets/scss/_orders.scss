@@ -1,0 +1,117 @@
+/*
+=======================================
+    2. Orders section
+=======================================         
+*/
+.orders {
+    height: unset;
+    min-height: unset;
+
+    .row {
+        padding-bottom: 50px;
+    }
+}
+/*
+---------------------------------------
+    2.1 Title
+---------------------------------------         
+*/
+
+.orders__title {
+    color: $main-color;
+    font-family: $default_font;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+/*
+---------------------------------------
+    2.2 Items
+---------------------------------------         
+*/
+
+.orders__item {
+    margin: 15px auto;
+    max-width: 330px;
+    padding-bottom: 20px;
+    border: 1px solid transparentize($color: $main_color, $amount: .75);
+    border-top: 30px solid transparentize($color: $main_color, $amount: .75);
+    border-radius: 10px;
+
+    &.main {
+        border-color: transparentize($color: $main_color, $amount: 0);
+
+        .item__title {
+            color: transparentize($color: $main_color, $amount: 0);
+        }
+
+        .item__list {
+            color: $main_color;
+        }
+
+        .item__price {
+            color: $main_color;
+        }
+    }
+}
+
+.orders__item:not(.main) {
+    .item__btn {
+        border-color: transparentize($color: $main_color, $amount: .65);
+        color: transparentize($color: $main_color, $amount: .65);
+
+        span:not(.btn__content) {
+            background-color: transparentize($color: $main_color, $amount: .65);
+        }
+    }
+}
+
+.orders .item {
+    &__title {
+        color: transparentize($color: $main_color, $amount: .65);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: $default_font;
+    }
+
+    &__list {
+        color: transparentize($color: $main_color, $amount: .65);
+        padding: 10px 20px;
+        
+        ul {
+            list-style: none;
+            margin-top: 10px;
+            margin-bottom: 0;
+
+            li {
+                margin-bottom: 5px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    &__price {
+        color: transparentize($color: $main_color, $amount: .65);
+        margin-bottom: 20px;
+        font-family: $buttons_font;
+        font-size: 2.5em;
+        text-align: center;
+
+        span {
+            font-family: $default-font;
+        }
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+    }
+}

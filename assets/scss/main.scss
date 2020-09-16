@@ -23,14 +23,15 @@
 |       4.1 Info                      |
 |       4.2 Skills                    |
 |-------------------------------------|
-|   5. Portfolio section              |
-|       5.1 Works                     |
+|   5. Services section               |
+|       5.1 Title                     |
+|       5.2 Items                     |
 |-------------------------------------|
-|   6. Projects section               |
-|       6.1 Items                     |
+|   6. Portfolio section              |
+|       6.1 Works                     |
 |-------------------------------------|
-|   7. Services section               |
-|       7.1 Title                     |
+|   7. Orders section                 |
+|       7.1 Tilte                     |
 |       7.2 Items                     |
 |-------------------------------------|
 |   8. Contacts section               |
@@ -59,14 +60,14 @@
 // About section
 @import 'about';
 
+// Services section
+@import 'services';
+
 // Portfolio section
 @import 'portfolio';
 
-// Projects section
-@import 'projects';
-
-// Services section
-@import 'services';
+// Orders section
+@import 'orders';
 
 // Contacts section
 @import 'contacts';

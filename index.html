@@ -96,9 +96,9 @@
             <ul class="hidden__menu">
                 <li><a href="#" class="menu__link current" data-to="0" data-lang-section="header">Главная</a></li>
                 <li><a href="#" class="menu__link" data-to="1" data-lang-section="header">Обо мне</a></li>
-                <li><a href="#" class="menu__link" data-to="2" data-lang-section="header">Портфолио</a></li>
-                <li><a href="#" class="menu__link" data-to="3" data-lang-section="header">Проекты</a></li>
-                <li><a href="#" class="menu__link" data-to="4" data-lang-section="header">Услуги</a></li>
+                <li><a href="#" class="menu__link" data-to="2" data-lang-section="header">Услуги</a></li>
+                <li><a href="#" class="menu__link" data-to="3" data-lang-section="header">Портфолио</a></li>
+                <li><a href="#" class="menu__link" data-to="4" data-lang-section="header">Сделать заказ</a></li>
                 <li><a href="#" class="menu__link" data-to="5" data-lang-section="header">Контакты</a></li>
             </ul>
         </div>
@@ -113,10 +113,10 @@
                     <!-- Quote -->
                     <div class="quote home__quote">
                         <h1 class="quote__message">
-                            <q data-lang-section="home" data-lang-content="quote">Я просто верстаю лендинги</q>
+                            <q data-lang-section="home" data-lang-content="quote">Я разрабатываю сайты</q>
                         </h1>
                         <div class="quote__author" data-lang-section="home" data-lang-content="author">
-                            Борзов Виктор, обычный программист
+                            Борзов Виктор, веб-программист
                         </div>
                     </div>
 
@@ -138,29 +138,32 @@
 
             <!-- Section title -->
             <div class="row bordered-bottom">
-                <h3 class="section__title" data-lang-section="about" data-lang-content="title">Обо мне</h3>
+                <h4 class="section__title" data-lang-section="about" data-lang-content="title">Обо мне</h4>
             </div>
 
             <div class="row">
                 <!-- Info -->
-                <div class="col-4 d-none d-md-block">
+                <div class="col-4 d-none d-md-block bordered-right">
                     <img src="assets/img/about_img.png" alt="Me" class="about__img">
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="about__info">
                         
                         <h2 class="info__intro" data-lang-section="about" data-lang-content="intro">
-                            Я - Борзов Виктор, программист-энтузиаст
+                            Я - Борзов Виктор, частный программист
                         </h2>
                         <p class="info__prgf" data-lang-section="about" data-lang-content="info">
                             Добрый день, вечер, ночь, утро! 
                             <br>
                             <br>
                             Меня зовут Борзов Виктор. Я простой 20 летний пограммист. <br>
-                            Я занимаюсь адаптивной версткой лендингов любой сложности.
+                            Я занимаюсь разработкой сайтов под ключ любой сложности.
                             <br>
                             <br>
-                            Примеры моих работ можете посмотреть в портфолио.
+                            Если у вас есть продукт или углуга, которую вы хотите продвигать, 
+                            то вам необходим для этого собственный сайт.
+                            Позвольте мне помочь вам в этом.
+                            Я проработаю контент, разработаю дизайн, сверстаю и оптимизирую сайт для продвижения вашего товара или услуги.
                         </p>
                     </div>
                 </div>
@@ -212,32 +215,144 @@
         </div>
     </section>
 
+    <!-- Services section -->
+    <section class="section services bg-fill">
+        <a class="scroll-label" data-section="2"></a>
+        <div class="container h-100 bordered">
+            
+            <!-- Section title -->
+            <div class="row bordered-bottom">
+                <h4 class="section__title" data-lang-section="services" data-lang-content="title">
+                    Мои услуги
+                </h4>
+            </div>
+
+            <!-- Section subtitle -->
+            <div class="row bordered-bottom">
+                <h2 class="services__title w-100" data-lang-section="services" data-lang-content="subtitle">
+                    Что я могу для Вас сделать
+                </h2>
+            </div>
+
+            <!-- Services -->
+            <div class="row">
+
+                <!-- Item -->
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="far fa-edit"></i>
+                        </div>
+                        <h3 class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Наполнение сайта
+                        </h3>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я проработаю контент вашего сайта для продвижения вашего продукта или услуги.
+                            Поверхностная SEO оптимизация
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="fas fa-crop-alt"></i>
+                        </div>
+                        <h3 class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Разработка дизайна
+                        </h3>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я разработаю современный и притягивающий дизайн для вашего будущего сайта
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Верстка 
+                        </h3>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я сверстаю макет в полноценный сайт. 
+                            <br>
+                            Мобильная версия включена
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="fab fa-wordpress-simple"></i>
+                        </div>
+                        <h3 class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Натяжка на wordpress
+                        </h3>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я натяну готовую верстку на wordpress
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="far fa-hdd"></i>
+                        </div>
+                        <h3 class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Загрузка на хостинг
+                        </h3>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я выложу готовый сайт на ваш хостинг
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col-12 col-md-4">
+                    <div class="services__item">
+                        <div class="item__img">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3 class="item__title" data-lang-section="services" data-lang-content="items/title">
+                            Сопровождение сайта
+                        </h3>
+                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
+                            Я буду ежемесячно обеспечивать поддержку сайта.
+                            Вносить необходимые правки и оптимизировать для увеличения количества посещений
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Button -->
+            <button class="default-btn services__btn" data-to="4">
+                <span class="btn__content" data-lang-section="services" data-lang-content="button">
+                    Получить свой сайт
+                </span>
+            </button>
+        </div>
+    </section>
+
     <!-- Portfolio section -->
     <section class="section portfolio">
-        <a class="scroll-label" data-section="2"></a>
+        <a class="scroll-label" data-section="3"></a>
         <div class="container h-100 bordered">
             <!-- Section title -->
             <div class="row bordered-bottom">
-                <h3 class="section__title" data-lang-section="portfolio" data-lang-content="title">
+                <h4 class="section__title" data-lang-section="portfolio" data-lang-content="title">
                     Моё портфолио
-                </h3>
+                </h4>
             </div>
 
             <!-- Portfolio -->
             <div class="row works h-100">
-                <div class="col-12 col-md-4 item-container">
-                    <a href="https://mangaobserver.ru" targer= "_blank" class="works__item">
-                        <div class="cube-wrapper item__cube">
-                            <div class="cube ">
-                                <img src="assets/img/portfolio/manga.png" alt="MangaObserver" class="cube__img">
-                                <div class="cube__descr" data-lang-section="portfolio" data-lang-content="items">
-                                    <b>Manga Observer</b> - лендинг разработаный для моего стартапа MangaObserver.
-                                </div>
-                            </div>
-                        </div>
-                        <h5 class="item__title">Manga Observer</h5>
-                    </a>
-                </div>
                 <div class="col-12 col-md-4 item-container">
                     <a href="works/net" targer= "_blank" class="works__item">
                         <div class="cube-wrapper item__cube">
@@ -271,107 +386,101 @@
         </div>
     </section>
 
-    <!-- Projects section -->
-    <section class="section projects">
-        <a class="scroll-label" data-section="3"></a>
-        <div class="container h-100 bordered">
-            <!-- Section title -->
-            <div class="row bordered-bottom">
-                <h3 class="section__title" data-lang-section="projects" data-lang-content="title">
-                    Мои проекты
-                </h3>
-            </div>
-
-            <!-- Projects -->
-            <div class="row projects-list">
-                <div class="col-12 col-md-4 item-container">
-                    <a href="https://mangaobserver.ru" target="_blank" class="projects__item">
-                        <div class="cube-wrapper item__cube">
-                            <div class="cube ">
-                                <img src="assets/img/projects/mangaobserver.png" alt="MangaObserver" class="cube__img">
-                                <div class="cube__descr" data-lang-section="projects" data-lang-content="items">
-                                    <b>MangaObserver</b> - мой первый стартап (если его так можно назвать). <br>
-                                    Это десктоп приложение для отслеживания выхода новых глав манги.
-                                    Изначально сделал приложение для себя, но потом решил его распространить.
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <h5 class="item__title">MangaObserver</h5>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services section -->
-    <section class="section services">
+    <!-- Order section -->
+    <section class="section orders bg-fill">
         <a class="scroll-label" data-section="4"></a>
         <div class="container h-100 bordered">
             
-            <!-- Section title -->
-            <div class="row bordered-bottom">
-                <h3 class="section__title" data-lang-section="services" data-lang-content="title">
-                    Мои услуги
-                </h3>
-            </div>
-
-            <!-- Section subtitle -->
-            <div class="row bordered-bottom">
-                <h2 class="services__title w-100" data-lang-section="services" data-lang-content="subtitle">
-                    Что я могу для Вас сделать
-                </h2>
-            </div>
-
-            <!-- Services -->
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="services__item">
-                        <div class="item__img">
-                            <i class="far fa-file-code"></i>
-                        </div>
-                        <div class="item__title" data-lang-section="services" data-lang-content="items/title">
-                            Верстка с макета
-                        </div>
-                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
-                            Я могу сверстать ваш сайт с PSD, XD, Figma, Sketch макета
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="services__item">
-                        <div class="item__img">
-                            <i class="fas fa-wrench"></i>
-                        </div>
-                        <div class="item__title" data-lang-section="services" data-lang-content="items/title">
-                            Исправление ошибок
-                        </div>
-                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
-                            Я могу исправить ошибки в вашем сайте. 
-                            <br>
-                            От некорректно отображающихся картинок до неработающей контактной формы</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="services__item">
-                        <div class="item__img">
-                            <i class="fas fa-sitemap"></i>
-                        </div>
-                        <div class="item__title" data-lang-section="services" data-lang-content="items/title">
-                            Создание сайта с нуля
-                        </div>
-                        <p class="item__descr" data-lang-section="services" data-lang-content="items/descr">
-                            Я могу разработать для вас сайт с нуля под ключ
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Button -->
-            <button class="default-btn services__btn" data-to="5">
-                <span class="btn__content" data-lang-section="services" data-lang-content="button">
-                    Связаться со мной
+            <!-- Title -->
+            <h2 class="row orders__title bordered-bottom">
+                <span class="col-12" data-lang-section="orders" data-lang-content="title">
+                    Сделать заказ
                 </span>
-            </button>
+            </h2>
+            
+            <!-- Items -->
+            <div class="row h-100 align-items-center">
+                
+                <!-- Item -->
+                <div class="col-12 col-lg-4">
+                    <div class="orders__item">
+                        <div class="item__title bordered-bottom" data-lang-section="orders" data-lang-content="convert_title">
+                            Набор "ВЕРСТКА"
+                        </div>
+                        <div class="item__list bordered-bottom">
+                            <span data-lang-section="orders" data-lang-content="service">Услуги:</span>
+                            <ul>
+                                <li data-lang-section="orders" data-lang-content="responsive">✓ Адаптивная верстка</li>
+                                <li data-lang-section="orders" data-lang-content="cross">✓ Кросс-браузерная поддержка</li>
+                                <li data-lang-section="orders" data-lang-content="fix">✓ Исправление ошибок</li>
+                            </ul>
+                        </div>
+                        <div class="item__price bordered-bottom">
+                            <span data-lang-section="orders" data-lang-content="from">от</span> 35$
+                        </div>
+                        <button class="default-btn item__btn">
+                            <span class="btn__content" data-lang-section="orders" data-lang-content="btn" data-to="5">
+                                Купить
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col-12 col-lg-4">
+                    <div class="orders__item main">
+                        <div class="item__title bordered-bottom" data-lang-section="orders" data-lang-content="full_title">
+                            Набор "САЙТ ПОД КЛЮЧ"
+                        </div>
+                        <div class="item__list bordered-bottom">
+                            <span data-lang-section="orders" data-lang-content="service">Услуги:</span>
+                            <ul>
+                                <li data-lang-section="orders" data-lang-content="content">✓ Проработка контента</li>
+                                <li data-lang-section="orders" data-lang-content="seo">✓ SEO Оптимизация</li>
+                                <li data-lang-section="orders" data-lang-content="structure">✓ Создание структуры сайта</li>
+                                <li data-lang-section="orders" data-lang-content="design">✓ Разработка дизайна</li>
+                                <li data-lang-section="orders" data-lang-content="responsive">✓ Адаптивная верстка</li>
+                                <li data-lang-section="orders" data-lang-content="wordpress">✓ Натяжка на wordpress</li>
+                                <li data-lang-section="orders" data-lang-content="test">✓ Тестирование</li>
+                                <li data-lang-section="orders" data-lang-content="fix">✓ Исправление ошибок</li>
+                            </ul>
+                        </div>
+                        <div class="item__price bordered-bottom">
+                            <span data-lang-section="orders" data-lang-content="from">от</span> 200$
+                        </div>
+                        <button class="default-btn item__btn">
+                            <span class="btn__content" data-lang-section="orders" data-lang-content="btn" data-to="5">
+                                Купить
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="col-12 col-lg-4">
+                    <div class="orders__item">
+                        <div class="item__title bordered-bottom" data-lang-section="orders" data-lang-content="design_title">
+                            Набор "ДИЗАЙН"
+                        </div>
+                        <div class="item__list bordered-bottom">
+                            <span data-lang-section="orders" data-lang-content="service">Услуги:</span>
+                            <ul>
+                                <li data-lang-section="orders" data-lang-content="structure">✓ Создание структуры сайта</li>
+                                <li data-lang-section="orders" data-lang-content="design">✓ Разработка дизайна</li>
+                                <li data-lang-section="orders" data-lang-content="mobile">✓ Создание мобильной версии макета</li>
+                            </ul>
+                        </div>
+                        <div class="item__price bordered-bottom">
+                            <span data-lang-section="orders" data-lang-content="from">от</span> 25$
+                        </div>
+                        <button class="default-btn item__btn">
+                            <span class="btn__content" data-lang-section="orders" data-lang-content="btn" data-to="5">
+                                Купить
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

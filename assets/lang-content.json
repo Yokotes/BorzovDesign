@@ -34,19 +34,54 @@
             "subtitle": "Что я могу для Вас сделать",
             "items": [
                 {
-                    "title": "Верстка с макета",
-                    "descr": "Я могу сверстать ваш сайт с PSD, XD, Figma, Sketch макета"
+                    "title": "Наполнение сайта",
+                    "descr": "Я проработаю контент вашего сайта для продвижения вашего продукта или услуги. <br>Поверхностная SEO оптимизация"
                 },
                 {
-                    "title": "Исправление ошибок",
-                    "descr": "Я могу исправить ошибки в вашем сайте. <br>От некорректно отображающихся картинок до неработающей контактной формы"
+                    "title": "Разработка дизайна",
+                    "descr": "Я разработаю современный и притягивающий дизайн для вашего будущего сайта"
                 },
                 {
-                    "title": "Создание сайта с нуля",
-                    "descr": "Я могу разработать для вас сайт с нуля под ключ."
+                    "title": "Верстка",
+                    "descr": "Я сверстаю макет в полноценный сайт.<br>Мобильная версия включена"
+                },
+                {
+                    "title": "Натяжка на wordpress",
+                    "descr": "Я натяну готовую верстку на wordpress"
+                },
+                {
+                    "title": "Загрузка на хостинг",
+                    "descr": "Я выложу готовый сайт на ваш хостинг"
+                },
+                {
+                    "title": "Сопровождение сайта",
+                    "descr": "Я буду ежемесячно обеспечивать поддержку сайта. Вносить необходимые правки и оптимизировать для увеличения количества посещений"
                 }
             ],
-            "button": "Связаться со мной"
+            "button": "Получить свой сайт"
+        },
+
+        "orders": {
+            "service": "Услуги:",
+            "from": "от",
+
+            "convert_title":"Набор \"ВЕРСТКА\"",
+            "responsive": "✓ Адаптивная верстка",
+            "cross": "✓ Кросс-браузерная поддержка",
+            "fix": "✓ Исправление ошибок",
+
+            "full_title": "Набор \"САЙТ ПОД КЛЮЧ\"",
+            "content":"✓ Проработка контента",
+            "seo":"✓ SEO Оптимизация",
+            "structure": "✓ Создание структуры сайта",
+            "design":"✓ Разработка дизайна",
+            "wordpress":"✓ Натяжка на wordpress",
+            "test":"✓ Тестирование",
+
+            "design_title":"Набор \"ДИЗАЙН\"",
+            "mobile":"✓ Создание мобильной версии макета",
+
+            "btn": "Заполнить бриф"
         },
 
         "contacts": {
@@ -63,9 +98,9 @@
         "header": [
             "Главная",
             "Обо мне",
-            "Портфолио",
-            "Проекты",
             "Услуги",
+            "Портфолио",
+            "Сделать заказ",
             "Контакты"
         ],
 
@@ -84,25 +119,17 @@
 
         "about": {
             "title": "About me",
-            "intro": "I am Viktor Borzov, enthusiast programmer",
-            "info": "Good afternoon, evening, night, morning!<br><br> My name is Viktor Borzov. I’m 20 years old. <br>I can convert PSD, XD, Figma, Sketch to responsive landing page. You could see my works in portfolio section.",
+            "intro": "I am Viktor Borzov, web developer",
+            "info": "Good afternoon, evening, night, morning!<br><br> My name is Viktor Borzov. I’m 20 years old. <br>I make websites any complexity.<br><br>If you have product or service that you want to promote, then you need own website. I can help you with that. I can write content, design, convert to html and optimize a website for promoting your product or service.",
             "quote": "I love my job and I do it with high quality",
-            "author": "Viktor Borzov, enthusiast programmer"
+            "author": "Viktor Borzov, web developer"
         },
 
         "portfolio": {
             "title": "Portfolio",
-            "items": [
-                "<b>Manga Observer</b> - landing page developed for my startup MangaObserver.", 
+            "items": [ 
                 "<b>Net</b> - landing page converted from Figma template for mobile app for meetups. Website developed with Bootstrap4.",
                 "<b>ISCOMP</b> - landing page converted from Figma for cybersecure company. Website developed with Bootstrap4."
-            ]
-        },
-
-        "projects": {
-            "title": "My projects",
-            "items": [
-                "<b>MangaObserver</b> - (Only for Russian) this is my first startup (if it can called that). <br> This is desktop application for tracking manga releases. I developed it for myself, but later decided to distribute."
             ]
         },
 
@@ -111,19 +138,54 @@
             "subtitle": "What can I do for you",
             "items": [
                 {
-                    "title": "Convert from templates",
-                    "descr": "I can convert your PSD, XD, Figma, Sketch template to responsive HTML"
+                    "title": "Website content",
+                    "descr": "I will write content to your website. SEO Optimization"
                 },
                 {
-                    "title": "Fix issues",
-                    "descr": "I can fix errors in your website.<br> From incorrectly displayed image until not working contact form"
+                    "title": "Design",
+                    "descr": "I will design modern website template"
                 },
                 {
-                    "title": "Create a website",
-                    "descr": "I can design and create a website"
+                    "title": "Converting to HTML",
+                    "descr": "I will convert website template to responsive html"
+                },
+                {
+                    "title": "Wordpress",
+                    "descr": "I will move your website to Wordpress"
+                },
+                {
+                    "title": "Upload to hosting",
+                    "descr": "I will upload your website to hosting"
+                },
+                {
+                    "title": "Website support",
+                    "descr": "I will monthly support your website. Fix issues and optimize for more traffic"
                 }
             ],
-            "button": "Contact me"
+            "button": "Get own website"
+        },
+
+        "orders": {
+            "service": "Services",
+            "from": "from",
+
+            "convert_title":"HTML Package",
+            "responsive": "✓ Responsive HTML",
+            "cross": "✓ Cross-browser support",
+            "fix": "✓ Fix issues",
+
+            "full_title": "FULL Package",
+            "content":"✓ Write content",
+            "seo":"✓ SEO Optimization",
+            "structure": "✓ Building website structure",
+            "design":"✓ UI/UX Design",
+            "wordpress":"✓ Move to Wordpress",
+            "test":"✓ Testing",
+
+            "design_title":"DESIGN Package",
+            "mobile":"✓ Design mobile version",
+
+            "btn": "Order"
         },
 
         "contacts": {
@@ -140,9 +202,9 @@
         "header": [
             "Home",
             "About me",
-            "Portfolio",
-            "Projects",
             "Services",
+            "Portfolio",
+            "Order",
             "Contacts"
         ],
 

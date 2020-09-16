@@ -95,6 +95,7 @@ $(document).ready(()=>{
         e.preventDefault();
         hidden_menu.removeClass('show');
         burger.removeClass('active');
+        console.log('lol');
 
         let 
             section = $(this).data()['to'],
