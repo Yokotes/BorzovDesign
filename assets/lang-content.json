@@ -18,7 +18,8 @@
             "title": "Моё портфолио",
             "items": [
                 "<b>Manga Observer</b> - лендинг разработаный для моего стартапа MangaObserver.", 
-                "<b>Net</b> - лендинг сверстанный с макета Figma для мобильного приложения для знакомств NET. Сайт свестан с помощью Bootstrap4."
+                "<b>Net</b> - лендинг сверстанный с макета Figma для мобильного приложения для знакомств NET. Сайт свестан с помощью Bootstrap4.",
+                "<b>CUPY</b> - мой первый сайт сделанный на React js."
             ]
         },
 
@@ -129,7 +130,8 @@
             "title": "Portfolio",
             "items": [ 
                 "<b>Net</b> - landing page converted from Figma template for mobile app for meetups. Website developed with Bootstrap4.",
-                "<b>ISCOMP</b> - landing page converted from Figma for cybersecure company. Website developed with Bootstrap4."
+                "<b>ISCOMP</b> - landing page converted from Figma for cybersecure company. Website developed with Bootstrap4.",
+                "<b>CUPY</b> - my fisrt React app."
             ]
         },
 
